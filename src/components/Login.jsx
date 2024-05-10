@@ -17,9 +17,9 @@ function Login() {
         // }
     }
 
-    // const googleAuth = () => {
-    //     window.location.href = 'http://localhost:8080/auth/google/callback';
-    // }
+    const googleAuth = () => {
+        window.location.href = 'http://localhost:8080/auth/google/callback';
+    }
 
     return (
         <div className="container mt-4">
